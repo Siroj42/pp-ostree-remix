@@ -1,0 +1,4 @@
+[submodule ".fedora-iot-spec"]
+	path = .fedora-iot-spec
+	url = https://pagure.io/fedora-iot/ostree.git
+	branch = f35

@@ -1,0 +1,50 @@
+{
+  "ref": "SilverbluePine/stable/aarch64",
+  "ex-jigdo-spec": "fedora-iot.spec",
+  "include": "fedora-iot-base.json",
+  "boot-location": "modules",
+  "packages": [
+    "linux-firmware",
+    "megi-kernel",
+    "feedbackd",
+    "phoc",
+    "phosh",
+    "squeekboard",
+    "gnome-shell",
+    "ModemManager",
+    "rtl8723cs-firmware",
+    "dbus-x11",
+    "chatty",
+    "calls",
+    "carbons",
+    "purple-mm-sms",
+    "pinephone-helpers",
+    "evolution-data-server",
+    "f35-backgrounds-gnome",
+    "gnome-contacts",
+    "NetworkManager-wwan",
+    "firefox",
+    "nautilus",
+    "gvfs-goa",
+    "megapixels",
+    "gnome-power-manager",
+    "gnome-usage",
+    "xdg-user-dirs",
+    "pipewire-alsa",
+    "pipewire-pulseaudio",
+    "alsa-ucm",
+    "wlr-randr",
+    "gnome-terminal",
+    "gnome-clocks",
+    "wireplumber"
+  ],
+  "exclude-packages": [
+    "kernel",
+    "kernel-core"
+  ],
+  "repos": [
+    "fedora-35",
+    "fedora-35-updates",
+    "copr:copr.fedorainfracloud.org:njha:mobile"
+  ]
+  }
