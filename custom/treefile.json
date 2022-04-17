@@ -1,11 +1,10 @@
 {
-  "ref": "SilverbluePine/stable/aarch64",
+  "ref": "PineTree/stable/aarch64",
   "ex-jigdo-spec": "fedora-iot.spec",
   "include": "fedora-iot-base.json",
   "boot-location": "modules",
   "packages": [
-    "linux-firmware",
-    "megi-kernel",
+    "megi-kernel-ostree",
     "feedbackd",
     "phoc",
     "phosh",
@@ -42,9 +41,11 @@
     "kernel",
     "kernel-core"
   ],
+  "postprocess-script": "treecompose-post.merged.sh",
   "repos": [
-    "fedora-35",
-    "fedora-35-updates",
-    "copr:copr.fedorainfracloud.org:njha:mobile"
+    "fedora-36",
+    "fedora-36-updates",
+    "copr:copr.fedorainfracloud.org:siroj42:mobile-ostree",
+    "copr:copr.fedorainfracloud.org:siroj42:pp-ostree"
   ]
   }

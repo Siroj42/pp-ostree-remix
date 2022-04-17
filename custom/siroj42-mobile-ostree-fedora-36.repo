@@ -1,0 +1,10 @@
+[copr:copr.fedorainfracloud.org:siroj42:mobile-ostree]
+name=Copr repo for mobile owned by Siroj42
+baseurl=https://download.copr.fedorainfracloud.org/results/siroj42/mobile-ostree/fedora-36-$basearch/
+type=rpm-md
+skip_if_unavailable=True
+gpgcheck=1
+gpgkey=https://download.copr.fedorainfracloud.org/results/siroj42/mobile-ostree/pubkey.gpg
+repo_gpgcheck=0
+enabled=1
+enabled_metadata=1
